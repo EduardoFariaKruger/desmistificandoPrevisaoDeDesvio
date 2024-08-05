@@ -1,0 +1,645 @@
+{
+    "auxiliary": {
+        "cores": 12,
+        "cpuFamily": 25,
+        "cpuModel": 97,
+        "cpuTopology": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                5,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                9,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                11,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "eventColumnIds": [
+            {
+                "category": 1,
+                "categoryName": "CPU PROFILE",
+                "events": [
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of cpu cycles when the thread is not in halt state.",
+                        "encodedId": 50331766,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 118,
+                        "interval": 250000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "CYCLES_NOT_IN_HALT",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of instructions retired from execution. This count includes exceptions and interrupts. Each exception or interrupt is counted as one instruction.",
+                        "encodedId": 50331840,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 192,
+                        "interval": 250000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "RETIRED_INST",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of branch instructions retired. This includes all types of architectural control flow changes, including exceptions and interrupts.",
+                        "encodedId": 50331842,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 194,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "RETIRED_BR_INST",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of retired branch instructions, that were mispredicted.Note that only EX direct mispredicts and indirect target mispredicts are counted.",
+                        "encodedId": 50331843,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 195,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "RETIRED_BR_INST_MISP",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of taken branches that were retired. This includes all types of architectural control flow changes, including exceptions and interrupts.",
+                        "encodedId": 50331844,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 196,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "ExRetBrnTkn",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of retired taken branch instructions that were mispredicted.",
+                        "encodedId": 50331845,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 197,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "ExRetBrnTknMisp",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of near return instructions (RET or RET Iw) retired.",
+                        "encodedId": 50331848,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 200,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "ExRetNearRet",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of near returns retired that were not correctly predicted by the return address predictor. Each such mispredict incurs the same penalty as a mispredicted conditional branch instruction.",
+                        "encodedId": 50331849,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 201,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "ExRetNearRetMispred",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    },
+                    {
+                        "callstack": true,
+                        "category": 1,
+                        "cmask": 0,
+                        "description": "The number of indirect branches retired that were not correctly predicted. Each such mispredict incurs the same penalty as a mispredicted conditional branch instruction. Note that only EX mispredicts are counted.",
+                        "encodedId": 50331850,
+                        "eventCategory": 0,
+                        "expression": "",
+                        "frequency": 0,
+                        "hwEventId": 202,
+                        "interval": 25000,
+                        "invCmask": false,
+                        "isFrequencyMode": false,
+                        "name": "ExRetBrnIndMisp",
+                        "opCycleCount": false,
+                        "osMode": true,
+                        "samples": 0,
+                        "threshold": 0,
+                        "unitMask": 0,
+                        "usrMode": true
+                    }
+                ]
+            }
+        ],
+        "guest": false,
+        "guestKallsyms": "",
+        "guestKmodules": "",
+        "guestPid": 789577728,
+        "guestSymPaths": "",
+        "host": false,
+        "hypervisorEnabled": false,
+        "hypervisorVendor": "",
+        "ibsIdentifiers": 3071,
+        "ibsOpSampling": false,
+        "isCacheline": false,
+        "isFreqMode": false,
+        "osName": "Win1021H1-64",
+        "p0Freq": 0,
+        "profScope": "Single Application",
+        "profiledPids": "31712;"
+    },
+    "categoriesCollected": [
+        "cpu"
+    ],
+    "collectCommand": "AMDuProfCLI.exe collect --config branch -w C:\\Users\\User\\OneDrive\\Documentos\\UFPR\\Arquitetura\\desmistificandoPrevisaoDeDesvio -o C:\\Users\\User\\AppData\\Roaming\\AMDuProf\\ C:\\Users\\User\\OneDrive\\Documentos\\UFPR\\Arquitetura\\desmistificandoPrevisaoDeDesvio\\desvioAleatorioFor.exe",
+    "collection": {
+        "branch-filter": 511,
+        "callstack": {
+            "fpo": false,
+            "interval": 1,
+            "scope": 1,
+            "unwindDepth": 128
+        },
+        "dataBufferCount": 0,
+        "events": {
+            "configName": "Investigate Branching",
+            "configType": 1,
+            "cpuTraceSourceMask": 0,
+            "ibsEvents": {
+                "cacheAnalysis": false,
+                "fetch": false,
+                "fetchCallstack": true,
+                "fetchInterval": 0,
+                "fetchL3Miss": false,
+                "loadStoreOnly": false,
+                "op": false,
+                "opCallstack": true,
+                "opCycleCount": true,
+                "opInterval": 0,
+                "opL3Miss": false,
+                "randomize": true
+            },
+            "pmcEvents": {
+                "pmcEventList": [
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 118,
+                        "interval": 250000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 192,
+                        "interval": 250000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 194,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 195,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 196,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 197,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 200,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 201,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    },
+                    {
+                        "cntMask": 0,
+                        "collectCallstack": true,
+                        "guest": false,
+                        "host": false,
+                        "hwId": 202,
+                        "interval": 25000,
+                        "intx": false,
+                        "intxcp": false,
+                        "invertCntMask": false,
+                        "isEdgeDetect": false,
+                        "isFrequencyMode": false,
+                        "isSampling": true,
+                        "mask": 0,
+                        "os": true,
+                        "user": true
+                    }
+                ]
+            }
+        },
+        "flags": {
+            "cssDefaultValues": false,
+            "defaultBranchAnalysis": false,
+            "hasCallstack": false,
+            "maxDataFileSize": 0,
+            "perEventCSSDefault": false,
+            "profileMpi": false,
+            "pythonTraceOptions": false,
+            "traceMpi": false,
+            "traceOpenmp": false,
+            "traceOpenmpMode": 0
+        },
+        "globalFrequency": 0,
+        "globalSamplingInterval": 0,
+        "lbr": false,
+        "livePower": null,
+        "mmapBuffer": 0,
+        "profileConfigFiles": [
+            "branch"
+        ],
+        "schedule": {
+            "categoryDurations": [
+                {
+                    "category": 1,
+                    "categoryName": "CPU PROFILE",
+                    "end": 4364812701799,
+                    "start": 4364051960099,
+                    "type": 0
+                }
+            ],
+            "elapsed": 761,
+            "end": 4364812701799,
+            "endTs": "Mon Aug  5 19:34:47 2024",
+            "hostDurations": [
+                {
+                    "end": 4364812701799,
+                    "host": "kolodz-mainframe",
+                    "start": 4364051960099
+                }
+            ],
+            "profileCollectionDataLimitType": 0,
+            "profileDuration": 0,
+            "start": 4364051960099,
+            "startDelay": 0,
+            "startTs": "Mon Aug  5 19:34:46 2024",
+            "type": 1
+        },
+        "sessionVersion": 5,
+        "target": {
+            "appArgs": "",
+            "coreAffinity": "FFF",
+            "coreMask": "FFF",
+            "gpuFamily": "",
+            "launchApp": "C:\\Users\\User\\OneDrive\\Documentos\\UFPR\\Arquitetura\\desmistificandoPrevisaoDeDesvio\\desvioAleatorioFor.exe",
+            "profileCores": false,
+            "systemWide": false,
+            "terminateApp": false,
+            "workingDir": "C:\\Users\\User\\OneDrive\\Documentos\\UFPR\\Arquitetura\\desmistificandoPrevisaoDeDesvio"
+        }
+    },
+    "deviceInfo": {
+        "keys": [
+            0
+        ],
+        "values": [
+            {
+                "keys": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ],
+                "values": [
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ],
+                    [
+                        0,
+                        406032704
+                    ]
+                ]
+            }
+        ]
+    },
+    "hpc": {
+        "hostName": "kolodz-mainframe"
+    },
+    "profileType": 1,
+    "translateCommand": ""
+}
