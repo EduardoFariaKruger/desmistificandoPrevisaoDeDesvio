@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define TAM 30000
-#define VALUE 37
+#define VALUE 15000
 //Criamos uma árvore binária de busca balanceada e buscamos um valor. Em teoria, a depender do quão extremo for o valor (grande ou pequeno) o número de acertos no branch será maior).
 
 
